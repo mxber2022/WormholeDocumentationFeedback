@@ -70,7 +70,7 @@ function quoteEVMDeliveryPrice(
   - **Returns**: `sequence` - A unique identifier for the message.
 
 - **quoteEVMDeliveryPrice**: Provides a quote for the delivery price in native currency.
-  - `targetChain`: The <code style="color: Gold">Wormhole Chain ID</code> of the destination chain.
+  - `targetChain`: The <code style="color: gold">Wormhole Chain ID</code> of the destination chain.
   - `receiverValue`: The amount of native currency (if any) to send with the message.
   - `gasLimit`: The gas limit for executing the message on the target chain.
   - **Returns**: 
