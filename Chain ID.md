@@ -1,5 +1,7 @@
 ## Chain ID Clarification for Wormhole Relayer Contracts
 
+https://docs.wormhole.com/wormhole/quick-start/tutorials/hello-wormhole/hello-wormhole-explained
+
 ### Overview
 
 When working with cross-chain applications using the Wormhole Relayer, it’s crucial to understand the difference between Wormhole's internal Chain IDs and the standard blockchain Chain IDs. This distinction is important for correctly configuring and interacting with the Wormhole Relayer across various test networks.
