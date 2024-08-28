@@ -1,7 +1,3 @@
-Certainly! Below is the revised README section with the added code snippet:
-
----
-
 ## Chain ID Clarification for Wormhole Relayer Contracts
 
 [Wormhole Hello Wormhole Tutorial](https://docs.wormhole.com/wormhole/quick-start/tutorials/hello-wormhole/hello-wormhole-explained)
