@@ -68,7 +68,7 @@ function quoteEVMDeliveryPrice(
   - `receiverValue`: The amount of native currency (if any) to send with the message.
   - `gasLimit`: The gas limit for executing the message on the target chain.
   - **Returns**: `sequence` - A unique identifier for the message.
-
+```diff
 - **quoteEVMDeliveryPrice**: Provides a quote for the delivery price in native currency.
   - `targetChain`: The <code style="color: #1589F0">Wormhole Chain ID</code> of the destination chain.
   - `receiverValue`: The amount of native currency (if any) to send with the message.
@@ -76,7 +76,7 @@ function quoteEVMDeliveryPrice(
   - **Returns**: 
     - `nativePriceQuote`: The cost in the native currency of the source chain to deliver the message.
     - An additional value related to the quote.
-
+```
 ---
 
 This section should be included in your documentation to help other developers understand the important distinction between these IDs and to provide them with the necessary code references.
