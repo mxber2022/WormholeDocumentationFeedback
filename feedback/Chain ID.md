@@ -62,7 +62,7 @@ function quoteEVMDeliveryPrice(
 ```
 
 - **sendPayloadToEvm**: Sends a payload (message/data) to a specified contract on a target chain.
-  - `targetChain`: The Wormhole Chain ID of the destination chain.
+  - `targetChain`: The @@ Wormhole Chain @@ ID of the destination chain.
   - `targetAddress`: The contract address on the destination chain.
   - `payload`: The data/message to send.
   - `receiverValue`: The amount of native currency (if any) to send with the message.
