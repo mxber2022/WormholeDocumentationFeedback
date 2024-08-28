@@ -1,6 +1,10 @@
+Certainly! Below is the revised README section with the added code snippet:
+
+---
+
 ## Chain ID Clarification for Wormhole Relayer Contracts
 
-https://docs.wormhole.com/wormhole/quick-start/tutorials/hello-wormhole/hello-wormhole-explained
+[Wormhole Hello Wormhole Tutorial](https://docs.wormhole.com/wormhole/quick-start/tutorials/hello-wormhole/hello-wormhole-explained)
 
 ### Overview
 
@@ -36,6 +40,43 @@ When sending a message from BSC Testnet to Polygon Testnet via the Wormhole Rela
 
 - Specify `4` as the target chain ID (Wormhole Chain ID for BSC Testnet) in the Wormhole-specific function calls.
 - For general blockchain operations on BSC Testnet, use `97` (Standard Chain ID).
+
+### Wormhole Relayer Contract Functions
+
+Here are the key functions from the Wormhole Relayer contract that are used to send messages across chains:
+
+```solidity
+function sendPayloadToEvm(
+    uint16 targetChain,
+    address targetAddress,
+    bytes memory payload,
+    uint256 receiverValue,
+    uint256 gasLimit
+) external payable returns (uint64 sequence);
+
+function quoteEVMDeliveryPrice(
+    uint16 targetChain,
+    uint256 receiverValue,
+    uint256 gasLimit
+) external view returns (uint256 nativePriceQuote, uint256);
+```
+
+- **sendPayloadToEvm**: Sends a payload (message/data) to a specified contract on a target chain.
+  - `targetChain`: The Wormhole Chain ID of the destination chain.
+  - `targetAddress`: The contract address on the destination chain.
+  - `payload`: The data/message to send.
+  - `receiverValue`: The amount of native currency (if any) to send with the message.
+  - `gasLimit`: The gas limit for executing the message on the target chain.
+  - **Returns**: `sequence` - A unique identifier for the message.
+
+- **quoteEVMDeliveryPrice**: Provides a quote for the delivery price in native currency.
+  - `targetChain`: The Wormhole Chain ID of the destination chain.
+  - `receiverValue`: The amount of native currency (if any) to send with the message.
+  - `gasLimit`: The gas limit for executing the message on the target chain.
+  - **Returns**: 
+    - `nativePriceQuote`: The cost in the native currency of the source chain to deliver the message.
+    - An additional value related to the quote.
+
 ---
 
-This section should be included in your documentation to help other developers understand the important distinction between these IDs.
+This section should be included in your documentation to help other developers understand the important distinction between these IDs and to provide them with the necessary code references.
