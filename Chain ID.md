@@ -41,4 +41,4 @@ Understanding and correctly applying these Chain IDs ensures smooth and accurate
 
 ---
 
-This section should be included in your GitHub README to help other developers understand the important distinction between these IDs.
+This section should be included in your documentation to help other developers understand the important distinction between these IDs.
