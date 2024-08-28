@@ -36,11 +36,6 @@ When sending a message from BSC Testnet to Polygon Testnet via the Wormhole Rela
 
 - Specify `4` as the target chain ID (Wormhole Chain ID for BSC Testnet) in the Wormhole-specific function calls.
 - For general blockchain operations on BSC Testnet, use `97` (Standard Chain ID).
-
-### Conclusion
-
-Understanding and correctly applying these Chain IDs ensures smooth and accurate cross-chain communication within your decentralized application. If you have any questions or encounter issues, please refer to the Wormhole documentation or reach out to our support team.
-
 ---
 
 This section should be included in your documentation to help other developers understand the important distinction between these IDs.
