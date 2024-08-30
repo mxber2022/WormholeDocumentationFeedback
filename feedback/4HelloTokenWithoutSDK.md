@@ -2,7 +2,7 @@ https://github.com/wormhole-foundation/hello-token/blob/main/src/example-extensi
 
 
 <p align="center">
-  <img src="./assets/code.jpg" width="350" title="hover text">
+  <img src="./assets/code.jpg">
 </p>
 
 **Tests for this Solidity contract have not been implemented.**  
