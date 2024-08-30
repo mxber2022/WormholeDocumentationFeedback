@@ -1,6 +1,6 @@
 # Wormhole Documentation Feedback
 
-Below are the areas of improvement I have identified and have detailed feedback on each.
+Below are the areas of improvement I have identified and have detailed feedback on each. Some of the difficulty I have faced building with wormhole is.
 
 ## Areas of Improvement
 
