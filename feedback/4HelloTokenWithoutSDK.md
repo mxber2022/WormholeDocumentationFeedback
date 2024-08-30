@@ -2,8 +2,6 @@
 
 https://github.com/wormhole-foundation/hello-token/blob/main/src/example-extensions/HelloTokenWithoutSDK.sol 
 <br><br/>
-br><br/>
-
 
 <p align="center">
   <img src="./assets/code.jpg">
