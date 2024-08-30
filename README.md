@@ -4,7 +4,7 @@ Below are the areas of improvement I have identified and have detailed feedback 
 
 ## Areas of Improvement
 
-### 1. [WormholeChainId] (./feedback/1Chain%20ID.md)**
+### 1. [WormholeChainId](./feedback/1Chain%20ID.md)**
 
 ### 2. [Attest](./feedback/2Attest.md)
 
