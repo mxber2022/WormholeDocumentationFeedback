@@ -4,22 +4,13 @@ Below are the areas of improvement I have identified and have detailed feedback 
 
 ## Areas of Improvement
 
-### 1. Wormhole Chain Id 
+### 1. [WormholeChainId] (./feedback/1Chain%20ID.md)**
 
-- **[Link](./feedback/1Chain%20ID.md)**
+### 2. [Attest](./feedback/2Attest.md)
 
-### 2. Attest
+### 3. [OutdatedInfo](./feedback/3OutdatedGoerli.md)**
 
-- **[Link](./feedback/2Attest.md)**
-
-### 3. Outdated Info
-
-- **[Link](./feedback/3OutdatedGoerli.md)**
-
-### 4. TokenWithoutSDk
-
-- **Feedback:**
-- **[Link](./feedback/4HelloTokenWithoutSDK.md)**
+### 4. [TokenWithoutSDk](./feedback/4HelloTokenWithoutSDK.md)**
 
 ## Contact
 
