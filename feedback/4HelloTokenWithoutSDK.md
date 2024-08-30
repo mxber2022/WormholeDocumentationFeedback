@@ -1,6 +1,8 @@
-### HelloTokenWithoutSDK Issue
+## HelloTokenWithoutSDK Issue
 
-https://github.com/wormhole-foundation/hello-token/blob/main/src/example-extensions/HelloTokenWithoutSDK.sol
+https://github.com/wormhole-foundation/hello-token/blob/main/src/example-extensions/HelloTokenWithoutSDK.sol 
+<br><br/>
+br><br/>
 
 
 <p align="center">
@@ -16,5 +18,5 @@ During interaction with the contract token transfer following issue have been se
 
 ### Error 
 
-![Error 1](path/to/your/error-image1.png)
+![Error 1](./assets/error.jpg)
 
