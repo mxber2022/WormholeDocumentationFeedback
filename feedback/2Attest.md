@@ -1,5 +1,7 @@
 ## Valid Tokens and TokenBridge
 
+https://docs.wormhole.com/wormhole/quick-start/tutorials/hello-token
+
 ### Overview
 
 To facilitate token transfers between chains using Wormhole, you need to utilize the Wormhole TokenBridge. Before you can send tokens using the methods provided, it is essential to ensure that the token is attested onto the TokenBridge contract on the target blockchain.
