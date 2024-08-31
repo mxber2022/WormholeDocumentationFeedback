@@ -20,7 +20,6 @@ Below are the relevant Chain IDs and contract addresses for the Wormhole Relayer
 | Network           | Wormhole Chain ID | Standard Chain ID | Wormhole Relayer Contract Address                         |
 |-------------------|-------------------|-------------------|-----------------------------------------------------------|
 | **BSC Testnet**    | 4                 | 97                | `0x80aC94316391752A193C1c47E27D382b507c93F3`              |
-| **Polygon Testnet**| 5                 | 80001             | `0x0591C25ebd0580E0d4F27A82Fc2e24E7489CB5e0`              |
 | **Avalanche Testnet (Fuji)**| 6       | 43113             | `0xA3cF45939bD6260bcFe3D66bc73d60f19e49a8BB`              |
 | **Celo Testnet**   | 14                | 44787             | `0x306B68267Deb7c5DfCDa3619E22E9Ca39C374f84`              |
 | **Moonbeam Testnet**| 16               | 1287              | `0x0591C25ebd0580E0d4F27A82Fc2e24E7489CB5e0`              |
@@ -30,17 +29,14 @@ Below are the relevant Chain IDs and contract addresses for the Wormhole Relayer
 | **Network**                | **Wormhole Chain ID** | **Standard Chain ID** |
 |----------------------------|-----------------------|------------------------|
 | **Ethereum**               | 2                     | 1                      |
-| **Binance Smart Chain**    | 4                     | 97                     |
-| **Polygon**                | 5                     | 80001                  |
-| **Avalanche**              | 6                     | 43113                  |
+| **Binance Smart Chain**    | 4                     | 56                     |
+| **Avalanche**              | 6                     | 43114                  |
 | **Fantom**                 | 10                    | 250                    |
 | **Klaytn**                 | 13                    | 8217                   |
-| **Celo**                   | 14                    | 44787                  |
-| **Moonbeam**               | 16                    | 1287                   |
+| **Celo**                   | 14                    | 42220                  |
+| **Moonbeam**               | 16                    | 1284                   |
 | **Arbitrum**               | 23                    | 42161                  |
 | **Optimism**               | 24                    | 10                     |
-
-
 
 
 - **Use Wormhole Chain IDs** when configuring cross-chain interactions within the Wormhole protocol.
