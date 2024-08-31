@@ -27,18 +27,20 @@ Below are the relevant Chain IDs and contract addresses for the Wormhole Relayer
 
 ### Key Points
 
-Network                · Wormhole Chain ID · Standard Chain ID
------------------------·--------------------·--------------------
-Ethereum                · 2                  · 1
-Binance Smart Chain     · 4                  · 97
-Polygon                 · 5                  · 80001
-Avalanche               · 6                  · 43113
-Fantom                  · 10                 · *(Not listed)*
-Klaytn                  · 13                 · *(Not listed)*
-Celo                    · 14                 · 44787
-Moonbeam                · 16                 · 1287
-Arbitrum                · 23                 · *(Not listed)*
-Optimism                · 24                 · *(Not listed)*
+| **Network**                | **Wormhole Chain ID** | **Standard Chain ID** |
+|----------------------------|-----------------------|------------------------|
+| **Ethereum**               | 2                     | 1                      |
+| **Binance Smart Chain**    | 4                     | 97                     |
+| **Polygon**                | 5                     | 80001                  |
+| **Avalanche**              | 6                     | 43113                  |
+| **Fantom**                 | 10                    | 250                    |
+| **Klaytn**                 | 13                    | 8217                   |
+| **Celo**                   | 14                    | 44787                  |
+| **Moonbeam**               | 16                    | 1287                   |
+| **Arbitrum**               | 23                    | 42161                  |
+| **Optimism**               | 24                    | 10                     |
+
+
 
 
 - **Use Wormhole Chain IDs** when configuring cross-chain interactions within the Wormhole protocol.
